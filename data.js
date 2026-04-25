@@ -7,7 +7,7 @@ window.SITE_DATA = {
   lab: "Figueroa Robotics Lab",
   advisor: "Nadia Figueroa",
   advisorUrl: "https://nbfigueroa.github.io/",
-  labUrl: "https://figueroalab.seas.upenn.edu/",
+  labUrl: "https://figueroa.seas.upenn.edu/",
   uniUrl: "https://www.upenn.edu/",
   bio: [
     "I am a PhD student in Robotics at the",
@@ -36,25 +36,6 @@ window.SITE_DATA = {
   // Papers + projects unified. `kind` is "paper" or "project".
   // Ordered newest-first; the UI groups by year.
   items: [
-    {
-      kind: "paper",
-      id: "sage",
-      title: "SAGE: Semantic And Geometric Estimation of 6D Object Pose from Multi-View Observations",
-      authors: ["M. Kim", "H. Choi", "N. Figueroa"],
-      venue: "Preprint",
-      year: "2026",
-      badge: "Preprint",
-      thumb: "assets/papers/sage.png",
-      teaserAlt: "Multi-view 6D pose estimation overview",
-      abstract: "A multi-view framework that fuses semantic priors with geometric cues to recover accurate 6D object pose under occlusion and cluttered scenes. SAGE jointly reasons over per-view descriptors and a shared object model to produce pose estimates that are consistent across viewpoints.",
-      links: [],
-      bibtex: `@article{kim2025sage,
-  title   = {SAGE: Semantic And Geometric Estimation of 6D Object Pose from Multi-View Observations},
-  author  = {Kim, M. and Choi, H. and Figueroa, N.},
-  journal = {Preprint},
-  year    = {2025}
-}`,
-    },
     {
       kind: "paper",
       id: "dynamic-asm6d",
